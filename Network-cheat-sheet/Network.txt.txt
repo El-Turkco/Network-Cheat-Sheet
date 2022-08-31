@@ -1,0 +1,50 @@
+(+)Network(ağ)
+   (+) Network büyüklüğe göre ikiye ayrılır.
+    1:Lan(Local Arena Network): 
+        Lanlar yüksek hızlı güvenilir ve küçük bir alana yayılmış olan local ağlardır.
+    2:Wan(Wide Arena Network):
+        Coğrafi olarak birbirinden uzakların birleşmesi ile oluşur Örneğin:İnternet ağı 
+
+(+)Ağ protokolleri
+    Ağdaki protokollerin dillere benzetebiliriz bilgisayarların anlaşması için protokoller kullanırlar.
+    Günümüzde kullanılan en yaygın protokol TCP/IP dir.
+
+(+)OSI Refarans Modeli
+    OSI Modeli 7 katmandan oluşur.
+    7.application layer
+    6.Presentation layer
+    5.Session layer 
+    4.Transport layer
+    3.Network layer
+    2.Data-link layer
+    1.Physical layer
+
+(+)TCP/IP Protokollü
+    TCP ve UDP olarak ikiye ayrılır.
+        TCP = Güvenli bir iletim Protokolüdür. Veri iletimi başlamdan önce gönderici ve alıcı arasında anlaşma sağlar
+        Verinin ulaşıp ulaşmadığını kontrol eder.Alıcıya ulaşmayan veriyi tekrar gönderir.
+        UDP = Bağlantı temelli değildir. Veriyi gönderir ulaşıp ulaşmadığını kontrol etmez.
+        Hızın, güvenlikten önemli olduğu yerlerde kullanılır.
+
+(+)Portlar
+    +Portlar bilgisayarların giriş kapılarıdır.
+    +TCP,UDP bağlantıları taşımak için port numaralarını kullanırlar.
+    +Bir bilgisayarda 65536 adet port numarası vardır. Bunların 1024 tanesi yaygın bir şekilde kullanılır.
+
+(+)Port Numaraları
+    22    TCP       FTP Data
+    21    TCP       FTP Control(dosya işlemleri)
+    22    TCP       SSH (Uzaktan pc bağlantı)
+    25    TCP       SMTP (Mail gönderme)
+    53    TCP,UDP   DNS 
+    80    TCP       HTTP(web service)
+    443   TCP       HTTPS (web service)
+    110   TCP       POP3 (Mail transfer Control)
+
+(+)TCP Bağlantı Başarım araçları 
+    ARP (Adress Resolution Protocol)
+         Ağ cihazların 2 tane adresi vardır.
+            A)Mac addres: Fiziksel addresidir
+            ağ kartların ROM belleği üreticisi trafından yazılır.
+            B)IP addres:Mantıksal addresidir.
+            cihaz yöneticilerin tarafından yazılır. 
