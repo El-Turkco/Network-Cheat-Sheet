@@ -39,6 +39,7 @@
     53    TCP,UDP   DNS 
     80    TCP       HTTP(web service)
     443   TCP       HTTPS (web service)
+    161   UDP       SNMP
     110   TCP       POP3 (Mail transfer Control)
 
 (+)TCP Bağlantı Başarım araçları 
