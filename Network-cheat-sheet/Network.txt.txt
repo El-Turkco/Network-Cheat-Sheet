@@ -32,7 +32,7 @@
     +Bir bilgisayarda 65536 adet port numarası vardır. Bunların 1024 tanesi yaygın bir şekilde kullanılır.
 
 (+)Port Numaraları
-    22    TCP       FTP Data
+    20    TCP       FTP Data
     21    TCP       FTP Control(dosya işlemleri)
     22    TCP       SSH (Uzaktan pc bağlantı)
     25    TCP       SMTP (Mail gönderme)
